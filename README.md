@@ -4,4 +4,4 @@ In the first approach, we utilized pre-trained models. Specifically, we selected
 
 In the second approach, we fine-tuned a Yolov8n model for table location. We also attempted to use the Img2Table library to extract table structures from the predictions of the YOLOv8n model. This involved applying Img2Table to cropped tables from located images and saving the extracted tables in Excel files.
 
-This project provides a practical framework for utilizing object detection models to locate and extract borderless tables from financial documents with diverse and challenging structures. It starts with manual annotation of data and progresses to successful model training.
+This project provides a practical framework for utilizing object detection models to mainly locate and optionaly extract borderless tables from financial documents with diverse and challenging structures. It starts with manual annotation of data and progresses to successful model training.
